@@ -1,8 +1,43 @@
-# Anamorphosis
-Een anamorfose is een 3d ververming.
-# Omreken
-Het beste kan je alles omrekenen met vectore
-# Python
-Ik heb iets voor pyhton geschreven
-#Javascript
-Ik heb iets voor Javascript gescreven.
+```stl
+
+
+
+solid test.stl
+facet 
+	outer loop
+		vertex 0 0 0
+		vertex 100 0 0
+		vertex 0 100 0
+	endloop
+endfacet
+facet 
+	outer loop
+		vertex 0 0 0
+		vertex 0 0 100
+		vertex 100 0 0
+	endloop
+endfacet
+facet 
+	outer loop
+		vertex 0 0 0
+		vertex 0 0 100
+		vertex 0 100 0
+	endloop
+endfacet
+facet 
+	outer loop
+		vertex 0 0 100
+		vertex 0 100 0
+		vertex 100 0 0
+	endloop
+endfacet
+
+
+
+
+endsolid
+
+
+```
+
+
